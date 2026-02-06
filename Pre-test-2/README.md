@@ -40,14 +40,12 @@ cmake --build . --config Release
 
 Windows
 ```bash
-
 .\Release\fibonacci_runner.exe 10
 
 ```
 
 Linux / macOS
 ```bash
-
 ./fibonacci_runner 10
 
 ```
@@ -55,7 +53,6 @@ Linux / macOS
 ### Option 2: Manual Compilation
 # Example for Windows manual build
 ```bash
-
 .\fibonacci_runner.exe 10
 
 ```
