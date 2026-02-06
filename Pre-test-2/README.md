@@ -22,5 +22,40 @@ I have implemented and verified the solution using two different build methods.
 **Execution Output:**
 ![CMake Output](Output_using_CMake_Pretest-2.png)
 
-## 📝 Summary
-I have successfully completed Pre-test 2 by implementing the WasmEdge runner and verifying it **in both ways** (Manual Compilation and CMake). The output demonstrates the correct execution of the Fibonacci WASM module using the WasmEdge VM API.
+## 🚀 How to Build & Run
+
+**ℹ️ Note:** The compiled `fibonacci.wasm` file is **already attached** in this repository. You do NOT need to compile the source `.wat` file manually.
+
+### Option 1: Using CMake (Recommended)
+This method automatically handles dependencies and places the WASM file correctly.
+
+```bash
+mkdir build
+cd build
+cmake ..
+cmake --build . --config Release
+
+```
+**Run the Application**
+
+Windows
+```bash
+
+.\Release\fibonacci_runner.exe 10
+
+```
+
+Linux / macOS
+```bash
+
+./fibonacci_runner 10
+
+```
+
+### Option 2: Manual Compilation
+# Example for Windows manual build
+```bash
+
+.\fibonacci_runner.exe 10
+
+```
