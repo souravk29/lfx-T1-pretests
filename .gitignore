@@ -1,0 +1,35 @@
+# --- Build & Binary Directories ---
+# Ignores build folders in any sub-directory (Pre-test-1, Pre-test-2, etc.)
+**/build/
+**/bin/
+**/dist/
+
+# --- IDE & Editor Private Files ---
+# Ignores local VS Code settings and workspace data
+.vscode/
+.history/
+*.sublime-project
+*.sublime-workspace
+
+# --- Compiled Executables & Objects ---
+# Ignores Windows and Linux executables
+*.exe
+*.out
+*.app
+# Ignores compiled object files
+*.o
+*.obj
+
+# --- Python Temporary Files ---
+# Relevant for Pre-test-1
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# --- System Junk ---
+.DS_Store
+Thumbs.db
+
+# --- Project Specific Binaries ---
+# Prevents your compiled runner from being pushed
+fibonacci_runner
