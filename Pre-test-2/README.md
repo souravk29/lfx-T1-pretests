@@ -10,7 +10,7 @@ I have implemented and verified the solution using CMake.
 - [▶️ Watch solution of Pre-test-2 Video](https://drive.google.com/file/d/13X6APhNHOgMwUuN-Fxb8BHtnRvnR-DYP/view?usp=sharing)
 
 **Execution Output:**
-![Manual Compilation Output](Output_Of_Pretest-2.png)
+![Output](Pre-test-2-Solution.png)
 
 ---
 
