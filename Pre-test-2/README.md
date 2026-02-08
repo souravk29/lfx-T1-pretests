@@ -49,10 +49,10 @@ Linux / macOS
 ./fibonacci_runner 10
 
 ```
-
 ### Option 2: Manual Compilation
-# Example for Windows manual build
-```bash
-.\fibonacci_runner.exe 10
+If you compiled the project manually (as shown in the video), ensure the `fibonacci.wasm` file is in the same directory as your executable, then run:
 
+```bash
+# Run the executable generated from the manual build
+.\fibonacci_runner.exe 10
 ```
