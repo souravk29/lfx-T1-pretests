@@ -6,10 +6,6 @@ This folder contains the solution for the first pre-test requirement, demonstrat
 
 ![Pre-test 1 Python Output](Output_of_Pre-test-1.png)
 
-## 🎥 Solution Video
-I have recorded a video demonstrating the code execution: ( In the beginning of the video )
-- [▶️  Pre-test 1 Solution Video](https://drive.google.com/file/d/1i3bbZa1H_WCdEywAL0OfiHGC_rsiZRtK/view)
-
 ## 🛠️ Technical Detail
 The script `pre_test1.py` processes a list of integers with a dynamic threshold.
 
