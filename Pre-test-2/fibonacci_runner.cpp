@@ -7,9 +7,17 @@ int main(int argc, char *argv[])
 
     // If no input is provided, i have set input to 10
     int input = 10;
-    if (argc > 1)
-    {
+    if (argc > 1){
         input = atoi(argv[1]);
+    }
+    else{
+        printf(" [INFO] No input provided. Defaulting to 10.\n");
+    }
+
+    // Sanity Check
+    if (input < 0){
+        printf(" [ERROR] Input must be a non-negative integer (input was %d).\n", input);
+        return 1;
     }
 
     printf("  Computing Fibonacci(%d) using WASM..... \n\n", input);
@@ -34,14 +42,13 @@ int main(int argc, char *argv[])
     // Execute WASM
     printf("  Loading and executing fibonacci.wasm..... \n\n");
     WasmEdge_Result Res = WasmEdge_VMRunWasmFromFile(
-        VMCxt,            // VM context
-        "fibonacci.wasm", // WASM file path
-        FuncName,         // Function name
-        Params,           // Parameters
-        1,                // Number of parameters
-        Returns,          // Return values
-        1                 // Number of returns
-    );
+        VMCxt,
+        "fibonacci.wasm",
+        FuncName,
+        Params,
+        1,
+        Returns,
+        1);
 
     // Result
     printf("  RESULT..... \n");
