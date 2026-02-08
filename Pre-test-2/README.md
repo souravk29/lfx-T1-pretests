@@ -4,23 +4,16 @@ This project is a solution for the **WasmEdge CLI Tool Extension** pre-test. It 
 
 ## 🎥 Solution Videos & Results
 
-I have implemented and verified the solution using two different build methods.
+I have implemented and verified the solution using CMake.
 
-### 1. Manual Compilation
-*Direct compilation using `MSVC` without a build system. Output of Pre-test-1 is also included in this video.*
-- [▶️ Watch Manual Compilation Video](https://drive.google.com/file/d/1i3bbZa1H_WCdEywAL0OfiHGC_rsiZRtK/view?usp=sharing)
+### Video solution
+- [▶️ Watch solution of Pre-test-2 Video](https://drive.google.com/file/d/13X6APhNHOgMwUuN-Fxb8BHtnRvnR-DYP/view?usp=sharing)
 
 **Execution Output:**
 ![Manual Compilation Output](Output_Of_Pretest-2.png)
 
 ---
 
-### 2. Compilation Using CMake
-*Automated build configuration using `CMakeLists.txt`.*
-- [▶️ Watch CMake Solution Video](https://drive.google.com/file/d/1kDI_A1G2MrZQ-tMk0pVSJXMEqA6D5QSA/view?usp=sharing)
-
-**Execution Output:**
-![CMake Output](Output_using_CMake_Pretest-2.png)
 
 ## 🚀 How to Build & Run
 
