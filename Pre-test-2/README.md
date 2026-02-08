@@ -33,7 +33,7 @@ cmake --build . --config Release
 
 Windows
 ```bash
-.\Release\fibonacci_runner.exe 10
+.\Debug\fibonacci_runner.exe 10
 
 ```
 
